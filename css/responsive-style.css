@@ -1,0 +1,97 @@
+/* Breakpoints  
+
+	1200px
+
+	820px
+
+	740px
+*/
+
+@media only screen and (max-width: 1220px) {
+	.sobre-container, .produtos-container, .assine-container {
+		max-width: 800px;
+	}
+
+	.sobre-item img {
+		width: 100%;
+	}
+
+	.sobre-item, .assine-info, .assine-container form {
+		width: 380px;
+		margin: 0;
+	}
+
+	.produtos-item {
+		width: 245px;
+	}
+
+	.locais {
+		max-width: 820px;
+	}
+
+	.locais-item > div, .locais-item img {
+		width: 380px;
+	}
+
+}
+
+@media only screen and (max-width: 820px) {
+
+	.menu {
+		text-align: center;
+	}
+
+	a.menu-logo {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.menu-nav {
+		float: none;
+		clear: both;
+		margin-top: 30px;
+	}
+
+	.intro {
+		padding: 40px 0;
+	}
+
+	.sobre-container, .produtos-container, .assine-container, .locais, .footer-container {
+		max-width: 485px;
+		padding: 0 10px;
+	}
+
+	.sobre-item img {
+		width: 100%;
+	}
+
+	.sobre-item, .produtos-item, .assine-info, .assine-container form, .locais-item > div, .locais-item img, .footer-container p {
+		width: 465px;
+		margin: 0;
+	}
+
+	.footer img {
+		display: block;
+		float: none;
+		margin: 60px 0 0 0 ;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	* {
+		max-width: 100%;
+	}
+
+	.menu-nav a {
+		font-size: 3.3vw;
+	}
+
+	.intro h1 {
+		font-size: 7vw;
+	}
+
+	p {
+		font-size: 2vh;
+	}
+	
+}
