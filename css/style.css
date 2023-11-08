@@ -334,7 +334,8 @@ a.menu-logo {
 	float: left;
 }
 
-.assine button {
+.assine button,
+.btnSubmit {
 	background-color: #252525;
 	text-transform: uppercase;
 	width: 160px;
